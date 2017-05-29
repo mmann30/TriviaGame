@@ -11,19 +11,29 @@
 
 	<!-- JavaScript/jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  	crossorigin="anonymous" defer></script>
+  	crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/javascript/app.js" defer></script>
 
 </head>
 <body>
 
-<div class="container">
+	<div id="main-menu">
+		<button class="btn btn-primary" id="start">Start Quiz</button>
+	</div>
 
-	<div>Time: <span id="display-timer"></span></div>
+	<div id="quiz-content">
+		<div id="timer">Time: <span id="timer-value"></span></div>
+		<div id="question"></div>
+		<div id="choices"></div>
+	</div>
 
-
-
-</div>
+	<div id="score">
+		<h1>Final Score</h1>
+		<h2>Correct: <span id="correct"></span><h2>
+		<h2>Incorrect: <span id="incorrect"></span><h2>
+		<button class="btn btn-success" id="try-again">Try Again</button>
+		<butoon class="btn btn-warning" id="quit">Quit</butoon>
+	</div>
 
 </body>
 </html>
