@@ -1,5 +1,18 @@
 /*TrivaGame stylings*/
 
+body {
+	background-color: #eab25b;
+	background-image: url(../images/Savannah-HD-Wallpaper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+/*	background-image: url(../images/Savannah-HD-Wallpaper.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
 /*#main-menu {
 	
 }

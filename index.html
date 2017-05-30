@@ -16,24 +16,28 @@
 
 </head>
 <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div id="main-menu">
+					<button class="btn btn-primary" id="start">Start Quiz</button>
+				</div>
 
-	<div id="main-menu">
-		<button class="btn btn-primary" id="start">Start Quiz</button>
+				<div id="quiz-content">
+					<div id="timer">Time: <span id="timer-value"></span></div>
+					<div id="question"></div>
+					<div id="choices"></div>
+				</div>
+
+				<div id="score">
+					<h1>Final Score</h1>
+					<h2>Correct: <span id="correct"></span></h2>
+					<h2>Incorrect: <span id="incorrect"></span></h2>
+					<button class="btn btn-success" id="try-again">Try Again</button>
+					<butoon class="btn btn-warning" id="quit">Quit</butoon>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<div id="quiz-content">
-		<div id="timer">Time: <span id="timer-value"></span></div>
-		<div id="question"></div>
-		<div id="choices"></div>
-	</div>
-
-	<div id="score">
-		<h1>Final Score</h1>
-		<h2>Correct: <span id="correct"></span><h2>
-		<h2>Incorrect: <span id="incorrect"></span><h2>
-		<button class="btn btn-success" id="try-again">Try Again</button>
-		<butoon class="btn btn-warning" id="quit">Quit</butoon>
-	</div>
-
 </body>
 </html>
