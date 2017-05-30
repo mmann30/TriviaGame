@@ -45,7 +45,7 @@ function displayQuiz(){
 	// Show quiz content
 	$("#quiz-content").show();
 	$("#timer-value").html(timer);
-	$("#question").html(arrQuestions[position][0]);
+	$("#question-text").html(arrQuestions[position][0]);
 	
 	// renders choice buttons
 	for( i = 1; i < arrQuestions[position].length - 1; i++){

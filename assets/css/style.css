@@ -7,16 +7,17 @@ body {
 	background-repeat: no-repeat;
 }
 
-.container {
-/*	background-image: url(../images/Savannah-HD-Wallpaper.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;*/
+
+#wrapper {
+	text-align: center;
+	margin-top: 100px;
 }
 
-/*#main-menu {
-	
+
+#main-menu {
+	margin-top: 25%;
 }
-*/
+
 #quiz-content {
 	display: none;
 }
