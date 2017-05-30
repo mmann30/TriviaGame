@@ -10,10 +10,10 @@ var timerInterval;
 
 // array of quiz questions, choices, and answers.
 var arrQuestions = [
-	["Q1", "C1.1", "C1.2", "C1.3", "C1.4", "C1.1"],
-	["Q2", "C2.1", "C2.2", "C2.3", "C2.4", "C2.2"],
-	["Q3", "C3.1", "C3.2", "C3.3", "C3.4", "C3.3"],
-	["Q4", "C4.1", "C4.2", "C4.3", "C4.4", "C4.4"]
+	["How many pounds of food do Giraffes eat in a day?", "100 lbs", "75 lbs", "50 lbs", "25 lbs", "75 lbs"],
+	["How long is a Giraffe's tongue?", "32 inches", "24 inches", "18 inches", "12 inches", "18 inches"],
+	["How long is a Giraffe's tail?", "8 ft", "6 ft", "4 ft", "2 ft", "8 ft"],
+	["In what biome are Giraffes found?", "Tundra", "RainForest", "Desert", "Savanna", "Savanna"]
 ];
 
 
