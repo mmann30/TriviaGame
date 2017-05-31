@@ -8,15 +8,13 @@ var timer;			// diplayed time remaining to answer
 var intervalId;
 var timerInterval;
 
-// array of quiz questions, choices, and answers.
+// array of [quiz questions, choices 1-4, answer].
 var arrQuestions = [
 	["How many pounds of food do Giraffes eat in a day?", "100 lbs", "75 lbs", "50 lbs", "25 lbs", "75 lbs"],
 	["How long is a Giraffe's tongue?", "32 inches", "24 inches", "18 inches", "12 inches", "18 inches"],
 	["How long is a Giraffe's tail?", "8 ft", "6 ft", "4 ft", "2 ft", "8 ft"],
 	["In what biome are Giraffes found?", "Tundra", "RainForest", "Desert", "Savanna", "Savanna"]
 ];
-
-
 
 function displayMenu() {
 	$("#quiz-content").hide();
